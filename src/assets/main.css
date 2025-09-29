@@ -1,4 +1,7 @@
 @import './base.css';
+@import 'tailwindcss/preflight';
+@import 'tailwindcss/theme';
+@import 'tailwindcss/utilities';
 
 #app {
   max-width: 1280px;
