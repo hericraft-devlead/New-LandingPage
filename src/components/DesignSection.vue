@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-gray-500 py-20 overflow-hidden">
+  <section class="section3 w-full bg-gray-500 py-20 overflow-hidden">
     <!-- Contenedor general -->
     <div class="w-full">
 
