@@ -40,6 +40,32 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  .rectangulo{
+    background-color: #1a1a1b;
+  }
+  .card{
+    background-color: aliceblue;
+  }
+  span{
+    font-weight: 900;
+    color:#47f7ca;
+  }
+  img{
+    z-index: 3;
+  }
+  button{
+    background: linear-gradient(94deg,rgba(213, 213, 213, 1) 0%, rgba(255, 255, 255, 1) 50%);
+    color: black;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: right;
+    z-index: -1;
+  }
+}
+
+.section4{
+  margin: 5% 0 0 0;
+  background-color: #1a1a1b;
 }
 
 a,

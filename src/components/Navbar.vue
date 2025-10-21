@@ -42,7 +42,7 @@
         <ul
           class="hidden md:flex space-x-10 text-white font-medium"
         >
-          <li><a href="#home" class="text-cyan-400 pb-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[3px] after:bg-gradient-to-r after:from-cyan-400 after:to-blue-500">INICIO</a></li>
+          <li><a href="#home" class="text-teal-300 pb-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[3px] after:bg-gradient-to-r after:from-teal-300 after:to-cyan-400">INICIO</a></li>
           <li><a href="#about" class="text-white hover:text-cyan-400 transition">NOSOTROS</a></li>
           <li><a href="#college" class=" text-white hover:text-cyan-400 transition">COLLEGE</a></li>
           <li><a href="#agora" class="text-white hover:text-cyan-400 transition">ÁGORA</a></li>

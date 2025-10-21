@@ -19,7 +19,7 @@
       <!-- Separador de colores -->
       <div class="relative w-full flex justify-center">
         <div
-          class="h-1 w-3/4 bg-gradient-to-r from-transparent via-cyan-400 to-transparent rounded-full"
+          class="h-1 w-3/4 bg-gradient-to-r from-transparent via-teal-300 to-transparent rounded-full"
         ></div>
       </div>
       <!-- Frase -->
