@@ -24,19 +24,20 @@
       <!-- Cuatro recuadros -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-8 md:px-16 mb-20">
         <!-- Tarjeta 1 -->
-        <div class="rounded-2xl p-[3px]" style="background: linear-gradient(135deg, rgba(34,211,238,0.8), rgba(59,130,246,0.8));">
-          <div class="card rounded-2xl flex flex-col items-center justify-end p-6 h-64 relative overflow-visible">
+        <div class="relative">
+          <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
+          <div class="card bg-[#0b1224]/80 rounded-4xl flex flex-col items-center justify-start p-6 h-99 relative overflow-visible">
 
             <!-- Imagen superpuesta -->
             <img
-              src=""
+              src="../assets/img/btn360.png"
               alt="Servicio 1"
-              class="absolute -top-20 w-32 h-32 object-cover rounded-full border-4 border-gray-900 shadow-lg"
+              class="absolute -top-30 w-55 h-55 object-cover rounded-full"
             />
 
-            <p class="text-white text-center text-sm mt-20">
-              <span>Asesoría 360º<br>
-              y acompañamiento
+            <p class="cardcontent text-white text-center text-sm mt-20">
+              <span class="cardtitle">Asesoría 360º<br></span>
+              <span class="cardtext">y acompañamiento
               continuo <br><br></span>
               Cada cliente cuenta con
               un asesor experto que guía
@@ -49,46 +50,49 @@
         </div>
 
         <!-- Tarjeta 2 -->
-        <div class="relative bg-transparent rounded-2xl p-[3px]"
-             style="background: linear-gradient(135deg, rgba(34,211,238,0.8), rgba(59,130,246,0.8));">
-          <div class="card rounded-2xl flex flex-col items-center justify-end p-6 h-64 relative overflow-visible">
+        <div class="relative">
+          <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6  h-99 relative overflow-visible">
             <img
-              src=""
+              src="../assets/img/btninst.png"
               alt="Servicio 2"
-              class="absolute -top-20 w-32 h-32 object-cover rounded-full border-4 border-gray-900 shadow-lg"
+              class="absolute -top-30 w-55 h-55 object-cover rounded-full"
             />
-            <p class="text-white text-center text-sm mt-20">
-              Integración de tecnología educativa
+            <p class="cardcontent text-white text-center text-sm mt-20">
+              <span class="cardtitle">Instituciones educativas<br><br></span>
+              Ofrecemos licencias escolares completas a las instituciones educativas.
             </p>
           </div>
         </div>
 
         <!-- Tarjeta 3 -->
-        <div class="relative bg-transparent rounded-2xl p-[3px]"
-             style="background: linear-gradient(135deg, rgba(34,211,238,0.8), rgba(59,130,246,0.8));">
-          <div class="card rounded-2xl flex flex-col items-center justify-end p-6 h-64 relative overflow-visible">
+        <div class="relative">
+          <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6  h-99 relative overflow-visible">
             <img
-              src=""
+              src="../assets/img/btnprof.png"
               alt="Servicio 3"
-              class="absolute -top-20 w-32 h-32 object-cover rounded-full border-4 border-gray-900 shadow-lg"
+              class="absolute -top-30 w-55 h-55 object-cover rounded-full"
             />
-            <p class="text-white text-center text-sm mt-20">
-              Capacitación docente especializada
+            <p class="cardcontent text-white text-center text-sm mt-20">
+              <span class="cardtitle">Profesionistas<br><br></span>
+              Brindamos acceso a contenidos personalizados para grupos de profesionistas.
             </p>
           </div>
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="relative bg-transparent rounded-2xl p-[3px]"
-             style="background: linear-gradient(135deg, rgba(34,211,238,0.8), rgba(59,130,246,0.8));">
-          <div class="card rounded-2xl flex flex-col items-center justify-end p-6 h-64 relative overflow-visible">
+        <div class="relative">
+          <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6  h-99 relative overflow-visible">
             <img
-              src=""
+              src="../assets/img/btnempr.png"
               alt="Servicio 4"
-              class="absolute -top-20 w-32 h-32 object-cover rounded-full border-4 border-gray-900 shadow-lg"
+              class="absolute -top-30 w-55 h-55 object-cover rounded-full"
             />
-            <p class="text-white text-center text-sm mt-20">
-              Evaluación y mejora continua
+            <p class="cardcontent text-white text-center text-sm mt-20">
+              <span class="cardtitle">Empresas<br><br></span>
+              Una plataforma integral de formación y gestión del aprendizaje a empresas.
             </p>
           </div>
         </div>

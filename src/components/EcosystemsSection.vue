@@ -21,16 +21,15 @@
     </h2>
 
     <!-- Servicios adicionales -->
-    <div class="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-16 px-6 max-w-5xl">
+    <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-16 px-6 max-w-5xl">
       <!-- Servicio 1 -->
       <div class="flex-1 flex flex-col items-center text-center">
         <h3 class="text-2xl font-bold text-gray-800 mb-4">Visita nuestra<br><span>Tienda en línea</span></h3>
 
         <!-- Separador -->
-        <div class="h-1 w-3/4 rounded-full mb-6"
-             style="background: linear-gradient(90deg, rgba(59,130,246,0) 0%, rgba(59,130,246,1) 50%, rgba(59,130,246,0) 100%);">
-        </div>
-
+        <div
+          class="h-1 w-3/4 mb-6 bg-gradient-to-r from-transparent via-teal-300 to-transparent rounded-full"
+        ></div>
         <!-- Imagen debajo -->
         <img src="../assets/img/cart.png" alt="Consultoría personalizada" class="w-30 object-cover" />
       </div>
@@ -40,9 +39,9 @@
         <h3 class="text-2xl font-bold text-gray-800 mb-4">Diseño y equipamiento <span>de Ambientes de Aprendizaje</span></h3>
 
         <!-- Separador -->
-        <div class="h-1 w-3/4 rounded-full mb-6"
-             style="background: linear-gradient(90deg, rgba(99,102,241,0) 0%, rgba(99,102,241,1) 50%, rgba(99,102,241,0) 100%);">
-        </div>
+        <div
+          class="h-1 w-3/4 mb-6 bg-gradient-to-r from-transparent via-teal-300 to-transparent rounded-full"
+        ></div>
 
         <!-- Imagen debajo -->
         <img src="../assets/img/env.png" alt="Desarrollo tecnológico" class="w-30 object-cover" />

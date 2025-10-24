@@ -44,11 +44,28 @@ body{
     background-color: #1a1a1b;
   }
   .card{
-    background-color: aliceblue;
+    background-color: #FFFFFF33;
+  }
+  .recuadro-border{
+    border-color: #29E3F6;
+    border-width: 5px;
+  }
+  .cardcontent{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 10% 0 10%;
   }
   span{
     font-weight: 900;
     color:#47f7ca;
+  }
+  .cardtitle{
+    font-weight: 800;
+    color:#47f7ca;
+    font-size: 1.6rem;
+  }
+  .cardtext{
+    font-size: 1.2rem;
   }
   img{
     z-index: 3;
