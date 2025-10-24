@@ -42,12 +42,12 @@
         <ul
           class="hidden md:flex space-x-10 text-white font-medium"
         >
-          <li><a href="#home" class="text-teal-300 pb-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[3px] after:bg-gradient-to-r after:from-teal-300 after:to-cyan-400">INICIO</a></li>
-          <li><a href="#about" class="text-white hover:text-cyan-400 transition">NOSOTROS</a></li>
-          <li><a href="#college" class=" text-white hover:text-cyan-400 transition">COLLEGE</a></li>
-          <li><a href="#agora" class="text-white hover:text-cyan-400 transition">ÁGORA</a></li>
-          <li><a href="#metanoia" class="text-white hover:text-cyan-400 transition">METANOIA</a></li>
-          <li><a href="#procesus" class="text-white hover:text-cyan-400 transition">PROCESSUS</a></li>
+          <li><a href="#home" class="text-white hover:text-teal-300 transition ">INICIO</a></li>
+          <li><a href="#about" class="text-white hover:text-teal-300 transition">NOSOTROS</a></li>
+          <li><a href="#college" class=" text-white hover:text-teal-300 transition">COLLEGE</a></li>
+          <li><a href="#agora" class="text-white hover:text-teal-300 transition">ÁGORA</a></li>
+          <li><a href="#metanoia" class="text-white hover:text-teal-300 transition">METANOIA</a></li>
+          <li><a href="#procesus" class="text-white hover:text-teal-300 transition">PROCESSUS</a></li>
         </ul>
 
         <!-- Botón -->
@@ -75,7 +75,7 @@
           <!-- Botón en versión móvil -->
           <a
             href="#login"
-            class="px-6 py-2 bg-gray-100 text-black rounded-lg shadow-lg hover:scale-105 transition-transform"
+            class="px-6 py-2 align-center bg-gray-100 text-black rounded-lg shadow-lg hover:scale-105 transition-transform"
             @click="isOpen = false"
           >
             INICIAR SESIÓN
