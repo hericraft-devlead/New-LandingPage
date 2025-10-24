@@ -6,7 +6,7 @@
       >
         <!-- Logo -->
         <div class="flex items-center space-x-5">
-          <img src="../assets/logo.png" alt="Logo" class="h-10 w-auto" />
+          <img src="../assets/logo.png" alt="Logo" class="logo h-10" />
         </div>
 
         <!-- Menú hamburguesa (visible solo en móviles) -->
@@ -53,7 +53,7 @@
         <!-- Botón -->
         <a
           href="#login"
-          class="hidden md:inline-block px-6 py-2 bg-gray-100 text-sm font-bold text-black rounded-lg shadow-lg hover:scale-110 transition-transform"
+          class="hidden md:inline-block px-3 py-2 bg-gray-100 text-sm font-bold text-black rounded-lg shadow-lg hover:scale-110 transition-transform text-center"
         >
           INICIAR SESIÓN
         </a>
@@ -75,7 +75,7 @@
           <!-- Botón en versión móvil -->
           <a
             href="#login"
-            class="px-6 py-2 align-center bg-gray-100 text-black rounded-lg shadow-lg hover:scale-105 transition-transform"
+            class="px-3 py-2 align-center bg-gray-100 text-black rounded-lg shadow-lg hover:scale-105 transition-transform"
             @click="isOpen = false"
           >
             INICIAR SESIÓN

@@ -22,11 +22,11 @@
 </div>
 
       <!-- Cuatro recuadros -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-8 md:px-16 mb-20">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-8 md:px-10 mb-20">
         <!-- Tarjeta 1 -->
-        <div class="relative">
+        <div class="card-pos relative">
           <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
-          <div class="card bg-[#0b1224]/80 rounded-4xl flex flex-col items-center justify-start p-6 h-99 relative overflow-visible">
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6 relative overflow-visible">
 
             <!-- Imagen superpuesta -->
             <img
@@ -50,9 +50,9 @@
         </div>
 
         <!-- Tarjeta 2 -->
-        <div class="relative">
+        <div class="card-pos relative">
           <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
-          <div class="card rounded-4xl flex flex-col items-center justify-start p-6  h-99 relative overflow-visible">
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6 relative overflow-visible">
             <img
               src="../assets/img/btninst.png"
               alt="Servicio 2"
@@ -66,9 +66,9 @@
         </div>
 
         <!-- Tarjeta 3 -->
-        <div class="relative">
+        <div class="card-pos relative">
           <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
-          <div class="card rounded-4xl flex flex-col items-center justify-start p-6  h-99 relative overflow-visible">
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6 relative overflow-visible">
             <img
               src="../assets/img/btnprof.png"
               alt="Servicio 3"
@@ -82,9 +82,9 @@
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="relative">
+        <div class="card-pos relative">
           <div class="recuadro-border absolute inset-0 m-4 rounded-4xl"></div>
-          <div class="card rounded-4xl flex flex-col items-center justify-start p-6  h-99 relative overflow-visible">
+          <div class="card rounded-4xl flex flex-col items-center justify-start p-6 relative overflow-visible">
             <img
               src="../assets/img/btnempr.png"
               alt="Servicio 4"
