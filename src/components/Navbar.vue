@@ -6,7 +6,7 @@
       >
         <!-- Logo -->
         <div class="flex items-center space-x-5">
-          <img src="../assets/logo.png" alt="Logo" class="logo h-10" />
+          <img src="../assets/logo.png" alt="Logo" class="h-10 w-auto max-w-[180px]"  />
         </div>
 
         <!-- Menú hamburguesa (visible solo en móviles) -->

@@ -14,10 +14,6 @@ body{
   opacity: 0.9;
 }
 
-.logo{
-  width: 100%;
-}
-
 .section1 {
   background-image: url('@/assets/img/gray-bg.png');
   background-size: cover;
