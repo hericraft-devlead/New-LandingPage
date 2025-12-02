@@ -1,13 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import './base.css';
 @import 'tailwindcss/preflight';
 @import 'tailwindcss/theme';
 @import 'tailwindcss/utilities';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  padding: 1% 0 1% 0;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.section1 {
+  background-image: url('@/assets/img/gray-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  img{
+    margin: 15% 0 5% 0;
+  }
+  span{
+    font-weight: 900;
+    color:aquamarine;
+  }
+}
+
+.section2{
+  span{
+    font-weight: 900;
+    color: gray;
+  }
+}
+
+.section3{
+  background-image: url('@/assets/img/gray-bg-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .rectangulo{
+    background-color: #1a1a1b;
+  }
+  .card{
+    background-color: #FFFFFF33;
+    height: 100%;
+  }
+  .recuadro-border{
+    border-color: #29E3F6;
+    border-width: 5px;
+  }
+  .cardcontent{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 10% 0 10%;
+    margin-bottom: 10%;
+  }
+  span{
+    font-weight: 900;
+    color:#47f7ca;
+  }
+  .cardtitle{
+    font-weight: 800;
+    color:#47f7ca;
+    font-size: 1.6rem;
+  }
+  .cardtext{
+    font-size: 1.2rem;
+  }
+  img{
+    z-index: 3;
+  }
+  button{
+    background: linear-gradient(94deg,rgba(213, 213, 213, 1) 0%, rgba(255, 255, 255, 1) 50%);
+    color: black;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: right;
+    z-index: -1;
+  }
+}
+
+.section4{
+  margin: 5% 0 0 0;
+  background-color: #1a1a1b;
 }
 
 a,
@@ -18,21 +95,8 @@ a,
   padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+@media (max-width: 1025px) {
+  .card-pos{
+    margin-bottom: 25%;
   }
 }
